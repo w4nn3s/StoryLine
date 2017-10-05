@@ -16,14 +16,33 @@ namespace App1
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            ImageButton imageButton1 = FindViewById<ImageButton>(Resource.Id.imageButton1);
+            ImageButton imgbtnLN = FindViewById<ImageButton>(Resource.Id.imgbtnLN);
+            ImageButton imgbtnT = FindViewById<ImageButton>(Resource.Id.imgbtnT);
+            ImageButton imgbtnMN = FindViewById<ImageButton>(Resource.Id.imgbtnMN);
 
-          /*  imageButton1.Click += (sender, e) =>
+            imgbtnLN.Click += (sender, e) =>
             {
-                var intent = new Intent(this, typeof(ViewAlbumActivity));
-                intent.put
+                var viewalbumact = new Intent(this, typeof(ViewAlbumActivity));
+                viewalbumact.PutExtra("AlbumID", "1");
+                StartActivity(viewalbumact);
+            };
 
-            };*/
+            imgbtnT.Click += (sender, e) =>
+            {
+                var viewalbumact = new Intent(this, typeof(ViewAlbumActivity));
+                viewalbumact.PutExtra("AlbumID", "2");
+                StartActivity(viewalbumact);
+            };
+
+
+            imgbtnMN.Click += (sender, e) =>
+            {
+                var viewalbumact = new Intent(this, typeof(ViewAlbumActivity));
+                viewalbumact.PutExtra("AlbumID", "3");
+                StartActivity(viewalbumact);
+            };
+
+
         }
     }
 }

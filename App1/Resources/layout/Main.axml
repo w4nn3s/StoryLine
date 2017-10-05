@@ -7,10 +7,15 @@
         android:src="@drawable/lncover"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton1" />
+        android:id="@+id/imgbtnLN" />
+    <ImageButton
+        android:src="@drawable/tcover150"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgbtnT" />
     <ImageButton
         android:src="@drawable/mncover"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton2" />
+        android:id="@+id/imgbtnMN" />
 </LinearLayout>
