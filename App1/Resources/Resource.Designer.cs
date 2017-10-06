@@ -45,82 +45,103 @@ namespace App1
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int ln1 = 2130837504;
+			public const int ce1 = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int ln2 = 2130837505;
+			public const int ce2 = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int ln3 = 2130837506;
+			public const int ce3 = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int ln4 = 2130837507;
+			public const int ce4 = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int lncover = 2130837508;
+			public const int ce5 = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int mn1 = 2130837509;
+			public const int ce6 = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int mn10 = 2130837510;
+			public const int cecover = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int mn11 = 2130837511;
+			public const int ln1 = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int mn12 = 2130837512;
+			public const int ln2 = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int mn2 = 2130837513;
+			public const int ln3 = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int mn3 = 2130837514;
+			public const int ln4 = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int mn4 = 2130837515;
+			public const int lncover = 2130837515;
 			
 			// aapt resource value: 0x7f02000c
-			public const int mn5 = 2130837516;
+			public const int mn1 = 2130837516;
 			
 			// aapt resource value: 0x7f02000d
-			public const int mn6 = 2130837517;
+			public const int mn10 = 2130837517;
 			
 			// aapt resource value: 0x7f02000e
-			public const int mn7 = 2130837518;
+			public const int mn11 = 2130837518;
 			
 			// aapt resource value: 0x7f02000f
-			public const int mn8 = 2130837519;
+			public const int mn12 = 2130837519;
 			
 			// aapt resource value: 0x7f020010
-			public const int mn9 = 2130837520;
+			public const int mn2 = 2130837520;
 			
 			// aapt resource value: 0x7f020011
-			public const int mncover = 2130837521;
+			public const int mn3 = 2130837521;
 			
 			// aapt resource value: 0x7f020012
-			public const int t1 = 2130837522;
+			public const int mn4 = 2130837522;
 			
 			// aapt resource value: 0x7f020013
-			public const int t2 = 2130837523;
+			public const int mn5 = 2130837523;
 			
 			// aapt resource value: 0x7f020014
-			public const int t3 = 2130837524;
+			public const int mn6 = 2130837524;
 			
 			// aapt resource value: 0x7f020015
-			public const int t4 = 2130837525;
+			public const int mn7 = 2130837525;
 			
 			// aapt resource value: 0x7f020016
-			public const int t5 = 2130837526;
+			public const int mn8 = 2130837526;
 			
 			// aapt resource value: 0x7f020017
-			public const int t6 = 2130837527;
+			public const int mn9 = 2130837527;
 			
 			// aapt resource value: 0x7f020018
-			public const int t7 = 2130837528;
+			public const int mncover = 2130837528;
 			
 			// aapt resource value: 0x7f020019
-			public const int tcover150 = 2130837529;
+			public const int t1 = 2130837529;
+			
+			// aapt resource value: 0x7f02001a
+			public const int t2 = 2130837530;
+			
+			// aapt resource value: 0x7f02001b
+			public const int t3 = 2130837531;
+			
+			// aapt resource value: 0x7f02001c
+			public const int t4 = 2130837532;
+			
+			// aapt resource value: 0x7f02001d
+			public const int t5 = 2130837533;
+			
+			// aapt resource value: 0x7f02001e
+			public const int t6 = 2130837534;
+			
+			// aapt resource value: 0x7f02001f
+			public const int t7 = 2130837535;
+			
+			// aapt resource value: 0x7f020020
+			public const int tcover150 = 2130837536;
 			
 			static Drawable()
 			{
@@ -135,17 +156,23 @@ namespace App1
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060003
-			public const int imageView1 = 2131099651;
+			// aapt resource value: 0x7f060005
+			public const int imageView1 = 2131099653;
 			
-			// aapt resource value: 0x7f060000
-			public const int imgbtnLN = 2131099648;
-			
-			// aapt resource value: 0x7f060002
-			public const int imgbtnMN = 2131099650;
+			// aapt resource value: 0x7f060004
+			public const int imgbtnCE = 2131099652;
 			
 			// aapt resource value: 0x7f060001
-			public const int imgbtnT = 2131099649;
+			public const int imgbtnLN = 2131099649;
+			
+			// aapt resource value: 0x7f060003
+			public const int imgbtnMN = 2131099651;
+			
+			// aapt resource value: 0x7f060002
+			public const int imgbtnT = 2131099650;
+			
+			// aapt resource value: 0x7f060000
+			public const int linearLayout1 = 2131099648;
 			
 			static Id()
 			{

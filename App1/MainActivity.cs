@@ -19,6 +19,7 @@ namespace App1
             ImageButton imgbtnLN = FindViewById<ImageButton>(Resource.Id.imgbtnLN);
             ImageButton imgbtnT = FindViewById<ImageButton>(Resource.Id.imgbtnT);
             ImageButton imgbtnMN = FindViewById<ImageButton>(Resource.Id.imgbtnMN);
+            ImageButton imgbtnCE = FindViewById<ImageButton>(Resource.Id.imgbtnCE);
 
             imgbtnLN.Click += (sender, e) =>
             {
@@ -42,6 +43,13 @@ namespace App1
                 StartActivity(viewalbumact);
             };
 
+
+            imgbtnCE.Click += (sender, e) =>
+            {
+                var viewalbumact = new Intent(this, typeof(ViewAlbumActivity));
+                viewalbumact.PutExtra("AlbumID", "4");
+                StartActivity(viewalbumact);
+            };
 
         }
     }
