@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace App1
 {
-    [Activity(Label = "ViewAlbumActivity")]
+    [Activity(Label = "StoryLine")]
     public class ViewAlbumActivity : Activity
     {
 
