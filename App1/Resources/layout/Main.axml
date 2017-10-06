@@ -3,32 +3,39 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <LinearLayout
-        android:orientation="vertical"
+    <ScrollView
         android:minWidth="25px"
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/linearLayout1">
-        <ImageButton
-            android:src="@drawable/lncover"
+        android:id="@+id/scrollView1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/imgbtnLN" />
-        <ImageButton
-            android:src="@drawable/tcover150"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/imgbtnT" />
-        <ImageButton
-            android:src="@drawable/mncover"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/imgbtnMN" />
-        <ImageButton
-            android:src="@drawable/cecover"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/imgbtnCE" />
-    </LinearLayout>
+            android:id="@+id/linearLayout1">
+            <ImageButton
+                android:src="@drawable/lncover"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imgbtnLN" />
+            <ImageButton
+                android:src="@drawable/tcover150"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgbtnT" />
+            <ImageButton
+                android:src="@drawable/mncover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgbtnMN" />
+            <ImageButton
+                android:src="@drawable/cecover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgbtnCE" />
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
