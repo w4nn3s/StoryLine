@@ -135,17 +135,17 @@ namespace App1
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050003
-			public const int imageView1 = 2131034115;
+			// aapt resource value: 0x7f060003
+			public const int imageView1 = 2131099651;
 			
-			// aapt resource value: 0x7f050000
-			public const int imgbtnLN = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int imgbtnLN = 2131099648;
 			
-			// aapt resource value: 0x7f050002
-			public const int imgbtnMN = 2131034114;
+			// aapt resource value: 0x7f060002
+			public const int imgbtnMN = 2131099650;
 			
-			// aapt resource value: 0x7f050001
-			public const int imgbtnT = 2131034113;
+			// aapt resource value: 0x7f060001
+			public const int imgbtnT = 2131099649;
 			
 			static Id()
 			{
@@ -160,11 +160,11 @@ namespace App1
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			// aapt resource value: 0x7f040000
+			public const int Main = 2130968576;
 			
-			// aapt resource value: 0x7f030001
-			public const int ViewAlbum = 2130903041;
+			// aapt resource value: 0x7f040001
+			public const int ViewAlbum = 2130968577;
 			
 			static Layout()
 			{
@@ -176,11 +176,27 @@ namespace App1
 			}
 		}
 		
+		public partial class Mipmap
+		{
+			
+			// aapt resource value: 0x7f030000
+			public const int ic_launcher = 2130903040;
+			
+			static Mipmap()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Mipmap()
+			{
+			}
+		}
+		
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040000
-			public const int app_name = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int app_name = 2131034112;
 			
 			static String()
 			{
